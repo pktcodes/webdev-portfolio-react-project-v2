@@ -4,7 +4,7 @@ import { socialLinks } from "../data";
 const Hero = () => {
   return (
     <section className="bg-emerald-100">
-      <div className="mx-auto grid max-w-7xl gap-y-8 px-8 py-24 md:grid-cols-2 md:items-center">
+      <div className="align-element grid gap-y-8 py-24 md:grid-cols-2 md:items-center">
         {/* Info */}
         <article>
           <h1 className="text-7xl font-bold tracking-wider">{"I'm Praveen"}</h1>
