@@ -1,4 +1,4 @@
-import { links } from "../data";
+import { navLinks } from "../data";
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
           Web<span className="text-emerald-600">Dev</span>
         </h2>
         <div className="flex gap-x-3 ">
-          {links.map((link) => {
+          {navLinks.map((link) => {
             const { id, href, text } = link;
             return (
               <a
