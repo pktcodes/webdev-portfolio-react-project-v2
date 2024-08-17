@@ -16,8 +16,16 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-  { id: nanoid(), href: "https://github.com/", icon: <FaGithubSquare /> },
-  { id: nanoid(), href: "https://linkedin.com/", icon: <FaLinkedin /> },
+  {
+    id: nanoid(),
+    href: "https://github.com/pktcodes",
+    icon: <FaGithubSquare />,
+  },
+  {
+    id: nanoid(),
+    href: "https://www.linkedin.com/in/praveen-kumar-codes/",
+    icon: <FaLinkedin />,
+  },
   { id: nanoid(), href: "https://twitter.com/", icon: <FaTwitterSquare /> },
 ];
 
